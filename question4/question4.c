@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    int numbers[] = {10, 20, 30, 40, 50};
+    int sum = 0;
+    int i;
+
+    for (i = 0; i < 5; i++) {
+        sum = sum + numbers[i];
+    }
+
+    printf("The sum is: %d\n", sum);
+
+    return 0;
+}
